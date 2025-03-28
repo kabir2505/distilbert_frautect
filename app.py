@@ -15,7 +15,7 @@ model.to(device)
 model.eval()  # Set model to evaluation mode
 
 # Label mapping
-label_map = {1: "Genuine", 0: "Fraud"}
+label_map = {1: "Fraud", 0: "Genuine"}
 
 
 
